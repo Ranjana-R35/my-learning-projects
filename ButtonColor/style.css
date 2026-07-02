@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+:root{
+    --grad-1: blue;
+    --grad-2: yellow;
+    --grad-3: green;
+    --grad-4: red;
+    --bg:black;
+    --text-color:white;
+    --hover:gray;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn-border{
+    
+        background:linear-gradient(115deg,
+        var(--grad-1),
+        var(--grad-2),
+        var(--grad-3),
+        var(--grad-4)
+    );
+    padding:5px;
+}
+.button{
+    font-size: 1.5rem;
+    background-color: var(--bg);
+    color: var(--text-color);
+    padding: 1em 1.4em;
+    letter-spacing: 0.2em;
+    border: none;
+}
+.btn-border:hover .button{
+    padding:1em 1.6em;
+    color:var(--hover);
+}
+.btn-border:hover{
+     background:linear-gradient(115deg,
+        var(--grad-4),
+        var(--grad-3),
+        var(--grad-2),
+        var(--grad-1)
+    );
+}

@@ -8,9 +8,6 @@
     --bg-color: blue;
     --color:white;
 }
-body{
-    background-color: gray;
-}
 .container{
     display: flex;
     justify-content: center;

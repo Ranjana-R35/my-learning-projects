@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+:root{
+    --bg-color: blue;
+    --color:white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1::after{
+    content:"";
+    animation: word infinite 3.5s;
+    background-color:var(--bg-color);
+    color:var(--color);
+    border-radius: 10px;
+    padding: 10px;
+}
+@keyframes word{
+    0%{
+            content:"Coding";
+    }
+    20%{
+            content:"HTML";
+    }
+    40%{
+            content:"CSS";
+    }
+    60%{
+        content:"JavaScript";
+    }
+    80%{
+            content:"React";
+    }
+    100%{
+            content:"MongoDB";
+    }
+}

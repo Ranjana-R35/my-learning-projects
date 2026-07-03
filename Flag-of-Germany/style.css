@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+.container{
+    height:150px;
+    width:calc(150px *5/3);
+    margin:2em auto;
+    /* display:flex;
+    flex-direction: column; */ 
+    display: grid;
+}
+/* .flag{
+    flex-grow:1;
+ } */
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.black{
+    background-color: black;
+}

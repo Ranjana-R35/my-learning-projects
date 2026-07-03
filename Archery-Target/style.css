@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+.container,.circle{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.circle1{
+    height: 300px;
+    width:300px;
+    border-radius: 50%;
+    background-color: black;
+}
+.circle2{
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    background-color: red;
+}
+.circle3{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    background-color: green;
+}
+.circle4{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: yellow;
+}

@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center; 
+}
+.round{
+    height: 1.5em;
+    width:1.5em;
+    background-color: black;
+    border-radius: 2em;
+    margin:0.5em;
+    animation:loading infinite alternate 1.5s;
+}
+@keyframes loading {
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color: blueviolet;
+        height: 1.9em;
+        width:1.9em;
+    }
+}

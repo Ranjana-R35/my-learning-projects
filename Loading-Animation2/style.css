@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center; 
+}
+.square{
+    height: 1.5em;
+    width:1.5em;
+    background-color: black;
+    margin:0.5em;
+    animation:loading infinite .5s;
+}
+.square1{
+    background-color: blue;
+}
+.square2{
+    background-color: red;
+}
+.square3{
+    background-color:green;
+}
+.square4{
+    background-color: yellow;
+}
+@keyframes loading {
+    from{
+        transform: rotate(-45deg);
+    }
+    to{
+       transform: rotate(45deg);
+    }
+}

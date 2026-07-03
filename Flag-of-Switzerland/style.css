@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+:root{
+    --white:white;
+    --red:red;
+    --hw:200px;
+}
+body{
+    background-color:gray;
+}
+.outer{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag{
+    height:var(--hw);
+    width:var(--hw);
+    background-color: var(--red);
+    display: flex;
+    margin: 2em auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.cross1{
+    height: 30px;
+    width:100px;
+    background-color: var(--white);
+}
+.cross2{
+    height:100px;
+    width:30px;
+    background-color: var(--white);
+    position: absolute;
+}

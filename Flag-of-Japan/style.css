@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+body{
+    background-color: black;
+}
+:root{
+    --height:200px;
+    --bg:gray;
+}
+body{
+    background-color: gray;
+}
+.outer{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag{
+    width:calc(var(--height)* 3/2);
+    height:var(--height);
+    background-color: white;
+    margin:2em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    background-color: brown;
+    width:calc(var(--height)* 3/5);
+    height:calc(var(--height)* 3/5);
+    border-radius: 50%;
+}

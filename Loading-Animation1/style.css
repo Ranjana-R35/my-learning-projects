@@ -23,10 +23,10 @@ body{
 }
 @keyframes loading {
     from{
-        background-color: aqua;
+        background-color:  #ffdd99;
     }
     to{
-        background-color: blueviolet;
+        background-color:  #ffbb33;
         height: 1.9em;
         width:1.9em;
     }

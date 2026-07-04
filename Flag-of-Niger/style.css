@@ -6,9 +6,10 @@
 }
 :root{
     --bgcolor:gray;
-    --red:red;
+    --red:Orange;
     --white:white;
     --green:green;
+    --height:200px;
 }
 body{
     background-color:var(--bgcolor);
@@ -20,8 +21,8 @@ body{
     align-items: center;
 }
 .flag{
-    height:150px;
-    width:calc(150px *5/3);
+    height:var(--height);
+    width:calc(var(--height) *7/6);
     margin:2em auto;
     display: grid;
 }
@@ -38,8 +39,8 @@ body{
 .circle{
     border-radius: 50%;
     background-color: var(--red);
-    height: 40px;
-    width:50px;
+    height: calc(var(--height)/3*.85);;
+    width:calc(var(--height)/3*.85);;
     position:absolute;
 }
 .green{

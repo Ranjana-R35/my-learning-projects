@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+:root{
+    --hw:200px;
+    --bgcolor:gray;
+}
+body{
+    background-color:var(--bgcolor);
+}
+.outer{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag{
+    height: var(--hw);
+    width:calc(var(--hw)*8/5);
+    background-color: #006AA7;
+    display: flex;
+    position:relative;
+}
+.cross{
+    background-color: #FECC00;
+}
+.cross1{
+    width:100%;
+    height:calc(var(--hw)*1/5);
+    align-self:center;
+}
+.cross2{
+    width:calc(var(--hw)*1/5);
+    height:100%;
+    position: absolute;
+    left:calc(var(--hw)*4/10);
+} 

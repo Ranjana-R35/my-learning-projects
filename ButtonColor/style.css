@@ -13,6 +13,9 @@
     --text-color:white;
     --hover:gray;
 }
+body{
+    background-color: gray;
+}
 .container{
     display: flex;
     justify-content: center;

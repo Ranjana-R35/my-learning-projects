@@ -5,7 +5,13 @@
     font-family:Arial,sans-serif;
 }
 body{
-    background-color:black;
+    background-color:gray;
+}
+.outer{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container{
     height:150px;

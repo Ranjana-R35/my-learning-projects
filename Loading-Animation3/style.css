@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+body{
+    background-color: gray;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.round{
+    width:100px;
+    height:100px;
+    border: 1em solid gainsboro;
+    border-radius: 50%;
+    border-top: 1em solid green;
+    animation:loading 2s linear infinite;
+}
+
+@keyframes loading {
+    100%{
+        transform: rotate(360deg);
+    }
+}

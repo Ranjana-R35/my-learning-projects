@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+:root{
+    --red:red;
+    --blue:blue;
+    --green:green;
+}
+body{
+    background-color: gray;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100%;
+}
+.progress-bar{
+    width:40%;
+    height:2em;
+    border-radius: 20px;
+    background-color:#D0D0D0;
+}
+.status{
+    width:25%;
+    background-color: var(--red);
+    animation: colorchange 3s infinite linear;
+}
+@keyframes  colorchange{
+    50%{
+        width:50%;
+        background-color: var(--blue);
+    }
+    100%{
+        width:100%;
+        background-color: var(--green);
+    }
+}

@@ -5,4 +5,6 @@
 # 🚀 Projects
 
 ## 🎨 Colourful Button
-A simple colorful button created using HTML and CSS with smooth hover animations and modern styling.
+A simple colorful button created using HTML and CSS with smooth hover animations.
+## 🔍 Expanding Search 
+An animated expanding search bar created using HTML and CSS.
